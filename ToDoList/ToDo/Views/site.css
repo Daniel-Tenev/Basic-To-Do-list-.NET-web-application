@@ -1,0 +1,58 @@
+﻿html {
+    font-size: 16px;
+}
+
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.navbar {
+    background: #343a40;
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.task-table td {
+    vertical-align: middle;
+}
+
+.badge-category {
+    background: #e9ecef;
+    color: #495057;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.overdue td {
+    background: #fff5f5;
+}
+
+.overdue .due-date {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.completed td {
+    color: #adb5bd;
+    text-decoration: line-through;
+}
+
+.filter-panel {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+    .filter-panel .form-label {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #495057;
+    }
